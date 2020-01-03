@@ -2,7 +2,11 @@
   <div class="p-8 flex items-center justify-center min-h-screen bg-background">
     <div class="max-w-md mx-auto">
       <div class="flex justify-around flex-wrap">
-        <img class="order-1 w-12" src="~/assets/img/foulard_35.png">
+        <img
+          class="order-1 w-12"
+          src="~/assets/img/foulard_35.png"
+          alt="Foulard 35"
+        >
         <h1 class="order-last sm:order-2 w-full sm:w-auto mt-4 sm:mt-0 font-heading text-center text-2xl text-text">
           Bienvenue sur le site des
           <br>
@@ -10,7 +14,11 @@
           <br>
           (35e et 86e Unités)
         </h1>
-        <img class="order-3 w-12" src="~/assets/img/foulard_86.png">
+        <img
+          class="order-3 w-12"
+          src="~/assets/img/foulard_86.png"
+          alt="Foulard 86"
+        >
       </div>
 
       <div class="mt-12">
