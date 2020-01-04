@@ -3,7 +3,7 @@
     <div class="max-w-md mx-auto">
       <div class="flex justify-around flex-wrap">
         <img
-          class="order-1 w-12"
+          class="order-1 w-12 h-32 object-contain"
           src="~/assets/img/foulard_35.png"
           alt="Foulard 35"
         >
@@ -15,7 +15,7 @@
           (35e et 86e Unités)
         </h1>
         <img
-          class="order-3 w-12"
+          class="order-3 w-12 h-32 object-contain flip-x"
           src="~/assets/img/foulard_86.png"
           alt="Foulard 86"
         >
@@ -30,16 +30,22 @@
         </p>
         <p class="mt-4">
           En cas de question, nous restons disponibles par mail.
-          <ul class="list-disc ml-8">
-            <li>
-              35e Unité (garçons): <a class="text-red" href="mailto:ardentsdesaintmichel@gmail.com">ardentsdesaintmichel@gmail.com</a>
-            </li>
-            <li>
-              86e Unité (filles): <a class="text-red" href="mailto:staffdunite86@gmail.com">staffdunite86@gmail.com</a>
-            </li>
-          </ul>
         </p>
+        <ul class="list-disc ml-8">
+          <li>
+            35e Unité (garçons): <a class="text-red" href="mailto:ardentsdesaintmichel@gmail.com">ardentsdesaintmichel@gmail.com</a>
+          </li>
+          <li>
+            86e Unité (filles): <a class="text-red" href="mailto:staffdunite86@gmail.com">staffdunite86@gmail.com</a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.flip-x {
+  transform: scaleX(-1)
+}
+</style>
